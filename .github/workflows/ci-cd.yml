@@ -7,7 +7,7 @@ on:
 jobs:
     push_to_dockerhub:
         name: Push Docker image to docker hub
-        runs-on: ubunto-latest
+        runs-on: ubuntu-latest
         steps:
             - name: Check out no repositorio
               uses: actions/checkout@v3
